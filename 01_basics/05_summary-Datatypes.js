@@ -27,6 +27,22 @@ const myFunc = function(){
     console.log("Hello world");
 }
 
+//***************Stack and Heap********************
+
+//Stack (Primitive), Heap(non-primitive)
+
+let userOne = {
+    email: "rrishu212@gmail.com",
+    upi: 28
+}
+
+let userTwo = userOne
+
+userTwo.email = "rohan@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
 
 
 
